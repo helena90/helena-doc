@@ -1,6 +1,5 @@
 # docker compose startup
 docker-compose -f docker-compose-nginx.yml up -d
-docker-compose -f docker-compose-nginx.yml restart
 docker-compose -f docker-compose-nginx.yml down
 
 

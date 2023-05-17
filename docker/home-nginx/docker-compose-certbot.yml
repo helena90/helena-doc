@@ -12,4 +12,4 @@ services:
     ports:
       - 80:80
       - 443:443
-    command: certonly --standalone --email bumworld@gmail.com --agree-tos --no-eff-email --force-renewal -d ${DOMAIN}
+    command: certonly --standalone --email ssolry@gmail.com --agree-tos --no-eff-email --force-renewal -d ${DOMAIN}
